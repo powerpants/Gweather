@@ -1,0 +1,14 @@
+
+<litepal>
+
+    <dbname value="g_weather"/>
+
+    <version value="1"/>
+
+    <list>
+        <mapping class="com.gweather.gweather.db.Province"/>
+        <mapping class="com.gweather.gweather.db.City"/>
+        <mapping class="com.gweather.gweather.db.County"/>
+    </list>
+
+</litepal>
