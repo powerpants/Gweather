@@ -32,11 +32,11 @@ public class City extends DataSupport {
         this.cityName = cityName;
     }
 
-    public int getCitCode() {
+    public int getCityCode() {
         return cityCode;
     }
 
-    public void setCitCode(int cityCode) {
+    public void setCityCode(int cityCode) {
         this.cityCode = cityCode;
     }
 
