@@ -140,6 +140,7 @@ public class WeatherActivity extends AppCompatActivity {
      * 根据天气id请求城市天气信息
      */
     public void requestWeather(final String weatherId) {
+        this.weatherId = weatherId;
 
         String weatherUrl = "http://guolin.tech/api/weather?cityid=" + weatherId
                 + "&key=f9e9ec114b4046eeb54456749d669ca1";
@@ -250,7 +251,7 @@ public class WeatherActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        requestWeather(weatherId);
+
         super.onStart();
     }
 }
